@@ -51,3 +51,9 @@ endif
 
 # Health HAL
 BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/health
+
+# flipendo
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/flipendo
+
+# turbo adapter
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
