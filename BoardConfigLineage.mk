@@ -12,12 +12,12 @@ USES_GOOGLE_DIALER_CARRIER_SETTINGS := true
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
 TARGET_KERNEL_CONFIG ?= slider_gki_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/gs201/private/gs-google
+TARGET_KERNEL_SOURCE := kernel/google/gs101/private/gs-google
 TARGET_NEEDS_DTBOIMAGE := true
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := device/google/gs101/vendor_dlkm.modules.blocklist
-TARGET_KERNEL_EXT_MODULE_ROOT := kernel/google/gs201/private/google-modules
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/google/gs101/private/google-modules
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
